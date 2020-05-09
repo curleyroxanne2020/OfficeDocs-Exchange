@@ -1,15 +1,11 @@
 ---
 localization_priority: Normal
-description: 'Summary: How organizations in the Office 365 U.S. Government Community Cloud (GCC) can enable Outlook for iOS and Android for their users.'
-ms.topic: article
-author: mattpennathe3rd
-ms.author: v-mapenn
-ms.assetid: 73b693d9-39bb-4689-a1ff-4be505a5945b
+description: 'Summary: How organizations in the Office 365 U.S. Government Community Cloud (GCC) can 5b
 title: Using Outlook for iOS and Android in the Government Community Cloud
 ms.collection: 
 - exchange-online
 - M365-email-calendar
-ms.reviewer: smithre4
+ms.reviewer: smi4
 audience: ITPro
 ms.service: exchange-online
 f1.keywords:
@@ -76,9 +72,7 @@ By default, certain services and features of Outlook for iOS and Android are dis
 
 - **TestFlight**: GCC accounts are not able to access pre-release features when using the TestFlight version of Outlook for iOS.
 
-Executing the below Exchange Online cmdlet enables GCC users using Outlook for iOS and Android access to the above features and services that are not FedRAMP compliant:
-
-```PowerShell
+Executing the below Exchange Online cmdlet enables GCC 
 Set-OrganizationConfig -OutlookMobileGCCRestrictionsEnabled $false
 ```
 
@@ -94,9 +88,8 @@ For more information on the cmdlet, see [Set-OrganizationConfig](https://docs.mi
 
 ## Services and features not available
 
-Certain services and features of Outlook for iOS and Android are not available for the Office 365 U.S. Government Community Cloud (GCC) because they do not meet FedRAMP requirements:
-
-- **Location services**: Bing location services are not available with GCC accounts. Features that rely on location services, like Cortana Time To Leave, are also unavailable.
+Certain services and features of Outlook for iOS and Android are not available for the Office 365 U.S. Government Community Cloud (GCC) because they do not meet FedRAMP requ
+ **Location services**: Bing location services are not available with GCC accounts. Features that rely on location services, like Cortana Time To Leave, are also unavailable.
 
 - **Favorites**: Favorite groups and people are not available with GCC accounts.
 
